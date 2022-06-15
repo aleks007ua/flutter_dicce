@@ -22,6 +22,7 @@ class DiceePage extends StatefulWidget {
 class _DiceePageState extends State<DiceePage> {
   var leftDiceNumber = 1;
   var rightDiceNumber = 1;
+  // ignore: non_constant_identifier_names
   RandomDicee() {
     leftDiceNumber = Random().nextInt(6) + 1;
     rightDiceNumber = Random().nextInt(6) + 1;
